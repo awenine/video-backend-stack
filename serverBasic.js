@@ -1,6 +1,6 @@
 const fastify = require('fastify')({logger:true})
 
-fastify.get('/', (reqq, res) => {
+fastify.get('/', (req, res) => {
   res.send({hello: 'world'})
 })
 
