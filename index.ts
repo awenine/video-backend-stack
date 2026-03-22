@@ -1,5 +1,6 @@
 import fastify = require("fastify");
 
+
 const server = fastify()
 
 server.get('/ping', async (request, reply) => {
